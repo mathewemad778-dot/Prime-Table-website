@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Welcome To Our Restaurant">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prime Table</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="navbar">
+        <div class="logo">Prime Table</div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776</label>
+        
+        <div class="links" >
+            <a href="#Home">Home</a>
+            <a href="#Menu">Menu</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+            <button>Order Now</button>
+        </div>
+        </div>
+        <div class="hero" id="Home">
+            <h1>Welcome To Prime Table Restaurant</h1>
+            <p>Experience The Best Taste In Town!</p>
+            <button onclick="location.href='#Menu'">View Menu</button>
+        </div>
+        <div class="menu-intro">
+            <h2>Discover Our Delicious Selection</h2>
+            <p>Explore a variety of meals, drinks, and desserts made with passion.</p>
+        </div>
+        <div class="menu" id="Menu">
+            <h2>Our Menu</h2>
+            <!-- Meals -->
+            <h3 class="menu-title">Meals</h3>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="download (3).jfif" alt="Burger">
+                    <h4>Classic Burger</h4>
+                    <p>Juicy grilled beef with fresh toppings.</p>
+                    <span>8.99$</span>
+                </div>
+                <div class="menu-item">
+                    <img src="download (4).jfif" alt="Pizza">
+                    <h4>Italian Pizza</h4>
+                    <p>Stone-baked pizza with mozzarella cheese.</p>
+                    <span>12.99$</span>
+                </div>
+                <div class="menu-item">
+                    <img src="download (2).jfif" alt="Pasta">
+                    <h4>Creamy Pasta</h4>
+                    <p>Rich creamy sauce with fresh herbs.</p>
+                    <span>10.99$</span>
+                </div>
+            </div>
+            <!-- Drinks -->
+            <h3 class="menu-title">Drinks</h3>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="hot-cofeee.jfif" alt="Coffee">
+                    <h4>Hot Coffee</h4>
+                    <p>Freshly brewed coffee with a rich and smooth flavor.</p>
+                    <span>3.50$</span>
+                </div>
+                <div class="menu-item">
+                    <img src="oreo-milkshake.jfif" alt="Oreo Milkshake">
+                    <h4>Oreo Milkshake</h4>
+                    <p>Creamy milkshake blended with premium ice cream.</p>
+                    <span>5.00$</span>
+                </div>
+                <div class="menu-item">
+                    <img src="juice.jfif" alt="Fresh Juice">
+                    <h4>Fresh Juice</h4>
+                    <p>Natural fruit juice made from freshly squeezed fruits</p>
+                    <span>4.00$</span>
+                </div>
+            </div>
+            <!-- Desserts -->
+            <h3 class="menu-title">Desserts</h3>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="cake.jfif" alt="Cake">
+                    <h4>Chocolate Cake</h4>
+                    <p>Rich chocolate cake topped with smooth chocolate glaze.</p>
+                    <span>6.00$</span>
+                </div>
+                <div class="menu-item">
+                    <img src="ice-cream.jpg" alt="Ice Cream">
+                    <h4>Ice Cream</h4>
+                    <p>Classic creamy ice cream available in multiple flavors.</p>
+                    <span>4.50$</span>
+                </div>
+                <div class="menu-item">
+                    <img src="donuts.jfif" alt="Donuts">
+                    <h4>Donuts</h4>
+                    <p>Soft and sweet donuts coated with sugar and toppings.</p>
+                    <span>3.99$</span>
+                </div>
+            </div>
+        </div>
+        <div class="features">
+            <div class="card">
+                <h3>We Make Delicious Food</h3>
+                <p>Our chefs use the freshest ingredients to create mouth-watering dishes.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card">
+                <h3>Fast Delivery</h3>
+                <p>Get your favourite meals delivered to your doorstep in no time</p>
+                <button>Order Now</button>
+            </div>
+            <div class="card">
+                <h3>Quality Ingredients</h3>
+                <p>We prioritize quality and taste in every dish we prepare.</p>
+                <button>Discover More</button>
+            </div>
+        </div>
+        <div class="img-section" id="About">
+            <h2>Our Dish</h2>
+            <div class="dishes">
+                <img src="download (1).jfif" alt="Our Dish">
+            </div>
+            <p>Our Restaurant is known for its delicious and fresh cuisine.</p>
+        </div>
+        <div class="hours">
+            <h2>Opening Hours</h2>
+            <div class="hours-container">
+                <div class="day">
+                    <span>Monday - Friday</span>
+                    <span>10:00 AM - 11:00 PM</span>
+                </div>
+                <div class="day">
+                    <span>Saturday</span>
+                    <span>12:00PM - 12:00AM</span>
+                </div>
+                <div class="day">
+                    <span>Sunday</span>
+                    <span>Closed</span>
+                </div>
+            </div>
+        </div>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <form class="contact-form" id="Contact">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Write Your Message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        <footer>
+            <p>&copy; 2026 Prime Table. All rights reserved.</p>
+            <div class="socials">
+                <a href="">Instagram</a>
+                <a href="">Facebook</a>
+                <a href="">Tiktok</a>
+            </div>
+        </footer>
+    </body>
+</html>
